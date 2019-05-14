@@ -28,6 +28,9 @@ public class ConsumerApplication {
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate() {
+
+
+
         return new RestTemplate();
     }
 
